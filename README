@@ -1,0 +1,45 @@
+# Invintus WordPress Plugin (Distribution Repo)
+
+This repository contains the **compiled, production-ready version** of the [Invintus WordPress plugin](https://github.com/TVWIT/invintus-wp-plugin).
+
+It is intended solely for distribution via Composer and deployment in WordPress environments. This repository is updated automatically via a build script that:
+
+- Compiles plugin assets (JS/CSS)
+- Runs Composer installation (`--no-dev`)
+- Pushes a clean, release-ready version of the plugin to this repo
+- Tags each version for Packagist/Composer usage
+
+---
+
+## ⚙️ How to Use via Composer
+
+Add the package to your `composer.json`:
+
+```json
+{
+  "require": {
+    "tvwit/invintus-wp-plugin": "^1.0"
+  },
+  "extra": {
+    "installer-type": "wordpress-plugin"
+  }
+}
+```
+
+> Make sure you’re using [composer/installers](https://github.com/composer/installers) or [johnpbloch/wordpress](https://github.com/johnpbloch/wordpress) for WordPress Composer integration.
+
+---
+
+## 🔄 Repo Flow
+
+- **Source code lives here:** https://github.com/TVWIT/invintus-wp-plugin
+- **Build script compiles and pushes to:** this repo (`tvwit/invintus-wp-plugin-dist`)
+- **Tagged versions are used by Packagist and Composer installs**
+
+---
+
+## 🔒 Do Not Edit Directly
+
+> This repository is managed automatically by a build script. Any manual changes will be overwritten on the next release.
+
+If you need to make changes to the plugin code, please open a PR on the [source repo](https://github.com/TVWIT/invintus-wp-plugin) instead.
