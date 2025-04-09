@@ -1,7 +1,0 @@
-{
-  "name": "tvwit/invintus-wp-plugin",
-  "type": "wordpress-plugin",
-  "description": "Compiled release version of the Invintus WordPress Plugin",
-  "license": "MIT",
-  "require": {}
-}
