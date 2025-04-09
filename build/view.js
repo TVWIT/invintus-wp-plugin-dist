@@ -1,0 +1,1 @@
+({init(){this.loadPlayers()},loadPlayers(){const e=document.querySelectorAll(".invintus-player");e.length&&e.forEach((e=>{const t={clientID:invintusConfig.clientId,playerPrefID:e.dataset.playerid,eventID:e.dataset.eventid,simple:e.dataset.simple};Invintus.launch(t)}))}}).init();

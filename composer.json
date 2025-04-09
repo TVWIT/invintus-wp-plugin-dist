@@ -1,0 +1,8 @@
+{
+  "name": "invintus/invintus-wp-plugin",
+  "type": "wordpress-plugin",
+  "description": "Official Invintus plugin for embedding live and on-demand video from Invintus Media Platform.",
+  "license": "MIT",
+  "homepage": "https://invintus.com",
+  "require": {}
+}
