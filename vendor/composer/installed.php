@@ -3,7 +3,7 @@
         'name' => 'invintus/invintus-wp-plugin',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'ba818dd2e8701da1d73d8c090ef54a6a4de848fb',
+        'reference' => '4515a75ec650519b9460018f373ae96ee987165e',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'invintus/invintus-wp-plugin' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'ba818dd2e8701da1d73d8c090ef54a6a4de848fb',
+            'reference' => '4515a75ec650519b9460018f373ae96ee987165e',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
